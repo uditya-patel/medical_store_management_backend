@@ -1,0 +1,23 @@
+#
+#Thu Dec 29 12:35:26 IST 2022
+com.capgemini.controller.UserController=org.springframework.stereotype.Component
+com.capgemini.MedicalStoreManagementSystem=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.capgemini.exception.CustomException=org.springframework.stereotype.Component
+com.capgemini.service.CustomerUserDetailsService=org.springframework.stereotype.Component
+com.capgemini.jwthelper.JwtUtil=org.springframework.stereotype.Component
+com.capgemini.service.ProductServiceImpl=org.springframework.stereotype.Component
+com.capgemini.entity.Product=javax.persistence.Entity
+com.capgemini.entity.User=javax.persistence.Entity,javax.persistence.Table
+com.capgemini.repository.BillingRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.capgemini.security.JwtAuthenticationFilter=org.springframework.stereotype.Component
+com.capgemini.exception.GlobalExceptionHandler=org.springframework.stereotype.Component
+com.capgemini.repository.ProductRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.capgemini.controller.AdminController=org.springframework.stereotype.Component
+com.capgemini.security.JwtAuthenticationEntryPoint=org.springframework.stereotype.Component
+com.capgemini.repository.ILoginRepository=org.springframework.data.repository.Repository
+com.capgemini.service.BillingServiceImpl=org.springframework.stereotype.Component
+com.capgemini.jwthelper.controller.JwtController=org.springframework.stereotype.Component
+com.capgemini.security.SecurityConfig=org.springframework.stereotype.Component
+com.capgemini.service.LoginServiceImpl=org.springframework.stereotype.Component
+com.capgemini.entity.Billing=org.springframework.stereotype.Component,javax.persistence.Entity
+com.capgemini.exception.ExceptionHandlerAdvice=org.springframework.stereotype.Component
